@@ -74,6 +74,7 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" true "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" ${KANG} --section "${SECTION}"
 extract "${MY_DIR}/proprietary-files-vayu.txt" "${SRC}" ${KANG} --section "${SECTION}"
+extract "${MY_DIR}/proprietary-files-custom.txt" "${SRC}" ${KANG} --section "${SECTION}"
 
 cp -rf "${ANDROID_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary" "system"
 
