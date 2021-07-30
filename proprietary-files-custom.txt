@@ -1,5 +1,9 @@
 # List blobs custom
 
+# Perfd
+vendor/lib/libqti-perfd-client.so
+vendor/lib64/libqti-perfd-client.so
+
 # Servicetracker
 vendor/lib/vendor.qti.hardware.servicetracker@1.0.so
 vendor/lib/vendor.qti.hardware.servicetracker@1.1.so
